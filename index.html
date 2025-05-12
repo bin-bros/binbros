@@ -244,41 +244,46 @@
 <section>
   <h2>📅 Book a Service</h2>
   <div class="package">
-    <form action="#" method="POST">
-      <label for="name"><strong>Full Name</strong></label>
-      <input type="text" id="name" name="name" placeholder="Your full name" required>
+    <form action="https://formsubmit.co/tosokolow@gmail.com" method="POST">
+  <input type="hidden" name="_subject" value="New BinBros Booking Request">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
 
-      <label for="email"><strong>Email Address</strong></label>
-      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+  <label for="name"><strong>Full Name</strong></label>
+  <input type="text" id="name" name="name" placeholder="Your full name" required>
 
-      <label for="phone"><strong>Phone Number</strong></label>
-      <input type="tel" id="phone" name="phone" placeholder="0403 411 000" required>
+  <label for="email"><strong>Email Address</strong></label>
+  <input type="email" id="email" name="email" placeholder="you@example.com" required>
 
-      <label for="service"><strong>Select a Service</strong></label>
-      <select id="service" name="service" required>
-        <option value="">-- Choose a Service --</option>
-        <option>Bin Placement</option>
-        <option>Bin Cleaning</option>
-        <option>House Cleaning</option>
-        <option>Pressure Washing</option>
-        <option>Lawn Mowing</option>
-        <option>Gutter Cleaning</option>
-        <option>Bin Bros Starter Package</option>
-        <option>Bin & Trim Package</option>
-        <option>Bin & Car Package</option>
-        <option>Airbnb Pro Package</option>
-        <option>Exterior Masterplan</option>
-        <option>Ultimate Everything Package</option>
-      </select>
+  <label for="phone"><strong>Phone Number</strong></label>
+  <input type="tel" id="phone" name="phone" placeholder="0403 411 000" required>
 
-      <label for="time"><strong>Preferred Booking Time</strong></label>
-      <input type="datetime-local" id="time" name="time" required>
+  <label for="service"><strong>Select a Service</strong></label>
+  <select id="service" name="service" required>
+    <option value="">-- Choose a Service --</option>
+    <option>Bin Placement</option>
+    <option>Bin Cleaning</option>
+    <option>House Cleaning</option>
+    <option>Pressure Washing</option>
+    <option>Lawn Mowing</option>
+    <option>Gutter Cleaning</option>
+    <option>Car Washing</option>
+    <option>Bin Bros Starter Package</option>
+    <option>Bin & Trim Package</option>
+    <option>Airbnb Pro Package</option>
+    <option>Exterior Masterplan</option>
+    <option>Ultimate Everything Package</option>
+  </select>
 
-      <label for="message"><strong>Extra Notes</strong></label>
-      <textarea id="message" name="message" rows="4" placeholder="Let us know anything specific..."></textarea>
+  <label for="time"><strong>Preferred Booking Time</strong></label>
+  <input type="datetime-local" id="time" name="booking_time" required>
 
-      <button type="submit">Submit Booking Request</button>
-    </form>
+  <label for="message"><strong>Extra Notes</strong></label>
+  <textarea id="message" name="message" rows="4" placeholder="Let us know anything specific..."></textarea>
+
+  <button type="submit">Submit Booking Request</button>
+</form>
+
   </div>
 </section>
 <section>
